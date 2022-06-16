@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Sim_Racing_Shields")(type "KiCad")(uri "${KIPRJMOD}/../Sim_Racing_Shields.pretty")(options "")(descr ""))
+)
