@@ -1,4 +1,4 @@
-# Sim Racing Shields
+# Sim Racing Shields for Arduino
 
 ![Sim Racing Shields Header](../master/images/Sim-Racing-Shields_Header.jpg)
 
