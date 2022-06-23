@@ -40,7 +40,28 @@ For use as a USB HID adapter, upload the [PedalsJoystick](https://github.com/dma
 
 The shields are designed to be used with the [Sim Racing Library for Arduino](https://github.com/dmadison/Sim-Racing-Arduino). You can use any included example for your specific hardware, or write your own using the data the library provides.
 
-Both shields use the SparkFun Pro Micro (32U4), and firmware should be compiled using the "SparkFun Pro Micro" board in the Arduino IDE. You can find the compilation files and installation instructions for the Pro Micro [here](https://github.com/sparkfun/Arduino_Boards).
+Both shields use the SparkFun Pro Micro (32U4), and firmware should be compiled using the "SparkFun Pro Micro" board in the Arduino IDE. You can find the compilation files and installation instructions for the Pro Micro [here](https://github.com/sparkfun/Arduino_Boards). You do not need to install the SparkFun boards package if you are using the custom boards package below.
+
+### Custom Boards Installation
+
+To install the custom boards package, start up the Arduino IDE and open the preferences window (**File > Preferences**). Copy and paste this URL for the package index into the "Additional Boards Manager URLs" field:
+
+```
+https://github.com/dmadison/Sim-Racing-Shields/raw/master/arduino-boards/boards-manager/package_simracing_index.json
+```
+
+In the menu, navigate to **Tools > Board > Boards Manager** and open up the boards manager. Search for "Sim Racing" and then install the "Sim Racing AVR Boards" package. After the package is installed you should be able to select the "SparkFun Pro Micro (for Sim Racing)" board.
+
+### Custom Boards Configuration
+
+The custom boards package adds two new options to the boards menu:
+
+* USB Identity
+* Serial Port
+
+The first option, 'USB Identity', changes the USB PID and USB description for the board. Firmware compiled with the 'Shifter' option will present as "Sim Racing Shifter" with a PID of 0x9101, while firmware compiled with the 'Pedals' option will present as "Sim Racing Pedals" with a PID of 0x9102.
+
+The second option, 'Serial Port', allows you to disable the USB CDC serial port. This improves compatibility with some systems and prevents accidentally reprogramming the board. Note that if you remove the USB CDC serial port the board will no longer automatically reset to the bootloader during programming. You will have to reset the board yourself or use an external programmer.
 
 ## Case
 

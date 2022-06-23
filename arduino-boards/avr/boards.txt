@@ -1,0 +1,79 @@
+# Sim Racing AVR Boards Configuration
+#
+# For more information see:
+# * https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
+# * https://github.com/arduino/Arduino/wiki/Arduino-Hardware-Cores-migration-guide-from-1.0-to-1.6
+#
+# Forked from SparkFun boards repository, version 1.6.19 (faf2160a)
+# https://github.com/sparkfun/Arduino_Boards
+#
+# This file has been modified with the following changes:
+# * Added custom USB VID/pid
+# * Added custom USB identities per device
+# * Added option to disable the CDC USB port
+
+menu.cpu=Processor
+menu.identity=USB Identity
+menu.serial=Serial Port
+
+################################################################################
+################################## Pro Micro ###################################
+################################################################################
+promicro.name=SparkFun Pro Micro (for Sim Racing)
+
+promicro.upload.tool=avrdude
+promicro.upload.protocol=avr109
+promicro.upload.maximum_size=28672
+promicro.upload.maximum_data_size=2560
+promicro.upload.speed=57600
+promicro.upload.disable_flushing=true
+promicro.upload.use_1200bps_touch=true
+promicro.upload.wait_for_upload_port=true
+
+promicro.bootloader.tool=avrdude
+promicro.bootloader.unlock_bits=0x3F
+promicro.bootloader.lock_bits=0x2F
+promicro.bootloader.low_fuses=0xFF
+promicro.bootloader.high_fuses=0xD8
+
+promicro.build.board=AVR_PROMICRO
+promicro.build.core=arduino:arduino
+promicro.build.variant=promicro
+promicro.build.mcu=atmega32u4
+promicro.build.extra_flags={build.usb_flags}
+
+# see https://pid.codes/1209
+promicro.build.usb_manufacturer="Arduino Sim Racing"
+promicro.build.vid=0x1209
+
+######################### Pro Micro 3.3V / 8MHz ################################
+promicro.menu.cpu.8MHzatmega32U4=ATmega32U4 (3.3V, 8 MHz)
+
+promicro.menu.cpu.8MHzatmega32U4.build.f_cpu=8000000L
+
+promicro.menu.cpu.8MHzatmega32U4.bootloader.extended_fuses=0xFE
+promicro.menu.cpu.8MHzatmega32U4.bootloader.file=caterina/Caterina-promicro8.hex
+
+############################# Pro Micro 5V / 16MHz #############################
+promicro.menu.cpu.16MHzatmega32U4=ATmega32U4 (5V, 16 MHz)
+
+promicro.menu.cpu.16MHzatmega32U4.build.f_cpu=16000000L
+
+promicro.menu.cpu.16MHzatmega32U4.bootloader.extended_fuses=0xCB
+promicro.menu.cpu.16MHzatmega32U4.bootloader.file=caterina/Caterina-promicro16.hex
+
+########################### Pro Micro USB Identities ###########################
+
+promicro.menu.identity.SimRacingShifter=Shifter
+promicro.menu.identity.SimRacingShifter.build.pid=0x9101
+promicro.menu.identity.SimRacingShifter.build.usb_product="Sim Racing Shifter"
+
+promicro.menu.identity.SimRacingPedals=Pedals
+promicro.menu.identity.SimRacingPedals.build.pid=0x9102
+promicro.menu.identity.SimRacingPedals.build.usb_product="Sim Racing Pedals"
+
+########################### Pro Micro Serial Options ###########################
+
+promicro.menu.serial.USBSerialEnabled=USB Serial
+promicro.menu.serial.USBSerialDisabled=No USB Serial
+promicro.menu.serial.USBSerialDisabled.build.extra_flags={build.usb_flags} -DCDC_DISABLED
