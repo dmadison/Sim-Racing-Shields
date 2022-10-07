@@ -1,0 +1,33 @@
+{
+  "packages": [
+    {
+      "name": "Sim Racing Boards",
+      "maintainer": "Dave Madison",
+      "websiteURL": "https://github.com/dmadison",
+      "help": {
+        "online": "https://github.com/dmadison/Sim-Racing-Shields"
+      },
+      "platforms": [
+        {
+          "name": "Sim Racing AVR Boards",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/dmadison/Sim-Racing-Shields/raw/master/arduino-boards/boards-manager/sim-racing-avr-1.0.0.tar.bz2",
+          "archiveFileName": "sim-racing-avr-1.0.0.tar.bz2",
+          "checksum": "SHA-256:9f68f97e92741f6ac98c5b6e3ab63c3e51336b39fa115fa2669092ae57b02e52",
+          "size": "701474",
+          "help": {
+            "online": "https://github.com/dmadison/Sim-Racing-Shields"
+          },
+          "boards": [
+            {
+              "name": "Pro Micro"
+            }
+          ],
+          "toolsDependencies": []
+        }
+      ]
+    }
+  ]
+}
