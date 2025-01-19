@@ -2146,7 +2146,17 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 78.74) (xy 213.36 78.74)
+			(xy 195.58 68.58) (xy 213.36 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60cfb5eb-7ac1-48b3-85aa-90475ad98b37")
+	)
+	(wire
+		(pts
+			(xy 198.12 78.74) (xy 213.36 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2456,7 +2466,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 62.23) (xy 195.58 78.74)
+			(xy 195.58 62.23) (xy 195.58 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2603,16 +2613,6 @@
 			(type default)
 		)
 		(uuid "e24dec02-0eca-4ec4-a8bd-27d05c30d5af")
-	)
-	(wire
-		(pts
-			(xy 198.12 68.58) (xy 213.36 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2a591bc-1538-4b8e-b40a-2d5ee29bd807")
 	)
 	(wire
 		(pts
@@ -2787,7 +2787,7 @@
 		(uuid "3208539f-128d-41c2-be91-49f2481a08ae")
 	)
 	(label "Shift_Detect"
-		(at 198.12 68.58 0)
+		(at 198.12 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
