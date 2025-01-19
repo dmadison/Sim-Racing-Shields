@@ -69,6 +69,10 @@ The second option, 'Serial Port', allows you to disable the USB CDC serial port.
 
 The case is printed in two parts, and assembled using two M3-10 bolts and two M3 nuts. The recommended print orientation is as-is. Note that the top half of the case is a little tricky to print, and must be printed using bed supports.
 
+## Building Your Own
+
+If you'd like to make these yourself, you can find the [Gerber files](https://en.wikipedia.org/wiki/Gerber_format) and [Bill of Materials (BOM)](https://en.wikipedia.org/wiki/Bill_of_materials) in [the latest release](https://github.com/dmadison/Sim-Racing-Shields/releases/latest).
+
 ## License
 
 The files in this repository are licensed under the terms of the [GNU General Public License (GPL)](https://www.gnu.org/licenses/gpl-3.0.html), either version 3 of the License, or (at your option) any later version. See the [LICENSE](LICENSE) file for more information.
