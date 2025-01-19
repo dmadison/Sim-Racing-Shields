@@ -3249,7 +3249,7 @@
 		(at 137.16 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "18fd7230-9635-47aa-9d63-57ae6f48d97f")
@@ -3289,6 +3289,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 137.16 81.28 0)
 			(effects
 				(font
@@ -3482,7 +3509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_51_RoHS_P_5.pdf"
 			(at 171.45 88.9 0)
 			(effects
 				(font
@@ -3491,7 +3518,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 10K OHM 1% 1/8W 0805"
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "YAG1319CT-ND"
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 171.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0805FR-0710KP"
 			(at 171.45 88.9 0)
 			(effects
 				(font
@@ -3634,6 +3688,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7a37215-bc85-4f13-89bb-0229180a057a")
 		)
@@ -3702,6 +3783,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e20a4cb5-cd3f-4616-8346-ab15258e732d")
 		)
@@ -3762,6 +3870,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 137.16 99.06 0)
 			(effects
 				(font
@@ -3922,7 +4057,7 @@
 		(at 109.22 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3964,6 +4099,33 @@
 			)
 		)
 		(property "Description" "Atmel 6-pin ISP connector"
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 109.22 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 109.22 139.7 0)
 			(effects
 				(font
@@ -4110,6 +4272,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 137.16 69.85 0)
 			(effects
 				(font
@@ -4298,7 +4487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://www.assmann-wsw.com/uploads/datasheets/ASS_4888_CO.pdf"
 			(at 196.85 76.2 0)
 			(effects
 				(font
@@ -4308,6 +4497,33 @@
 			)
 		)
 		(property "Description" "9-pin female receptacle socket D-SUB connector, Mounting Hole"
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "AE10921-ND"
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Assmann WSW Components"
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "A-DF 09 A/KG-T2S"
 			(at 196.85 76.2 0)
 			(effects
 				(font
@@ -4360,7 +4576,7 @@
 		(at 137.16 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c6578fe1-2d05-4684-ba5a-5a78cb1a8231")
@@ -4408,6 +4624,33 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey Part Number" ""
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5357af5-d3ba-4030-af6c-99c0bbfab8bf")
 		)
@@ -4428,7 +4671,7 @@
 		(at 137.16 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "eddc992e-224c-4125-a04d-4f2fba9d4203")
@@ -4468,6 +4711,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 137.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" ""
+			(at 137.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 137.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
 			(at 137.16 87.63 0)
 			(effects
 				(font
@@ -4534,7 +4804,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SPARKFUN QWIIC PRO MICRO - USB-C"
+			(at 86.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "1568-DEV-15795-ND"
+			(at 86.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SparkFun Electronics"
+			(at 86.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "DEV-15795"
 			(at 86.36 80.01 0)
 			(effects
 				(font
