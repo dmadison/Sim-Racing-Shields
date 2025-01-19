@@ -269,7 +269,7 @@
 				)
 			)
 		)
-		(symbol "Connector:DB9_Male_MountingHoles"
+		(symbol "Connector:DE9_Plug_MountingHoles"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -283,7 +283,7 @@
 					)
 				)
 			)
-			(property "Value" "DB9_Male_MountingHoles"
+			(property "Value" "DE9_Plug_MountingHoles"
 				(at 0 14.605 0)
 				(effects
 					(font
@@ -300,7 +300,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " ~"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -309,7 +309,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "9-pin male D-SUB connector, Mounting Hole"
+			(property "Description" "9-pin male plug pin D-SUB connector, Mounting Hole"
 				(at 0 0 0)
 				(effects
 					(font
@@ -318,7 +318,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector male D-SUB"
+			(property "ki_keywords" "connector plug male D-SUB DB9"
 				(at 0 0 0)
 				(effects
 					(font
@@ -336,7 +336,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DB9_Male_MountingHoles_0_1"
+			(symbol "DE9_Plug_MountingHoles_0_1"
 				(circle
 					(center -1.778 -10.16)
 					(radius 0.762)
@@ -557,7 +557,7 @@
 					)
 				)
 			)
-			(symbol "DB9_Male_MountingHoles_1_1"
+			(symbol "DE9_Plug_MountingHoles_1_1"
 				(pin passive line
 					(at 0 -15.24 90)
 					(length 3.81)
@@ -2853,7 +2853,7 @@
 		)
 		(uuid "2cc4a694-ed2f-4620-96ed-f2cf4ca0f753")
 	)
-	(text "DB9 Male Port"
+	(text "DE9 Male Port"
 		(exclude_from_sim no)
 		(at 171.45 48.26 0)
 		(effects
@@ -3625,7 +3625,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:DB9_Male_MountingHoles")
+		(lib_id "Connector:DE9_Plug_MountingHoles")
 		(at 220.98 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3642,7 +3642,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DB9_Male_MountingHoles"
+		(property "Value" "DE9_Plug_MountingHoles"
 			(at 220.98 59.69 0)
 			(effects
 				(font
@@ -3659,7 +3659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 220.98 76.2 0)
 			(effects
 				(font
@@ -3668,7 +3668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9-pin male plug pin D-SUB connector, Mounting Hole"
 			(at 220.98 76.2 0)
 			(effects
 				(font

@@ -269,7 +269,7 @@
 				)
 			)
 		)
-		(symbol "Connector:DB9_Female_MountingHoles"
+		(symbol "Connector:DE9_Receptacle_MountingHoles"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -283,7 +283,7 @@
 					)
 				)
 			)
-			(property "Value" "DB9_Female_MountingHoles"
+			(property "Value" "DE9_Receptacle_MountingHoles"
 				(at 0 14.605 0)
 				(effects
 					(font
@@ -300,7 +300,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " ~"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -309,7 +309,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "9-pin female D-SUB connector, Mounting Hole"
+			(property "Description" "9-pin female receptacle socket D-SUB connector, Mounting Hole"
 				(at 0 0 0)
 				(effects
 					(font
@@ -318,7 +318,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector female D-SUB"
+			(property "ki_keywords" "connector receptacle female D-SUB DB9"
 				(at 0 0 0)
 				(effects
 					(font
@@ -336,7 +336,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DB9_Female_MountingHoles_0_1"
+			(symbol "DE9_Receptacle_MountingHoles_0_1"
 				(circle
 					(center -1.778 -10.16)
 					(radius 0.762)
@@ -557,7 +557,7 @@
 					)
 				)
 			)
-			(symbol "DB9_Female_MountingHoles_1_1"
+			(symbol "DE9_Receptacle_MountingHoles_1_1"
 				(pin passive line
 					(at 0 -15.24 90)
 					(length 3.81)
@@ -4264,7 +4264,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:DB9_Female_MountingHoles")
+		(lib_id "Connector:DE9_Receptacle_MountingHoles")
 		(at 196.85 76.2 0)
 		(mirror x)
 		(unit 1)
@@ -4281,7 +4281,7 @@
 				)
 			)
 		)
-		(property "Value" "DB9_Female_MountingHoles"
+		(property "Value" "DE9_Receptacle_MountingHoles"
 			(at 196.85 57.15 0)
 			(effects
 				(font
@@ -4298,7 +4298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 196.85 76.2 0)
 			(effects
 				(font
@@ -4307,7 +4307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "9-pin female receptacle socket D-SUB connector, Mounting Hole"
 			(at 196.85 76.2 0)
 			(effects
 				(font
