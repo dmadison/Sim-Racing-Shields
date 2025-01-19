@@ -493,7 +493,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "Logitech_Shifter_Shield_Pro_Micro_BOM_v1.0.0.csv",
+    "bom_export_filename": "Logitech_Shifter_Shield_Pro_Micro_BOM_v2.0.0.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
