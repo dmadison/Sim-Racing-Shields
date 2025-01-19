@@ -3858,7 +3858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm"
+		(property "Footprint" "Sim_Racing_Shields:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm_ModP1Silk"
 			(at 204.47 64.77 0)
 			(effects
 				(font

@@ -51,14 +51,14 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|136915000|119176800|7ff1e219-277f-47dd-8855-bdadc6260af6|0160f4e7-5af9-4f91-a2b7-373d1a56c962",
+        "silk_edge_clearance|167885000|119176800|7ff1e219-277f-47dd-8855-bdadc6260af6|842b4703-761c-4ced-bb8c-2eed9d6e1b0b",
+        "silk_over_copper|151546902|86186639|316172bf-52bc-46b4-adac-2d48a0e34563|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|151930502|80802511|d529c14c-6b71-446f-a6fb-bec03d4315ab|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|152328787|80149700|915226b4-fe40-4872-bc2a-395b435a2e92|00000000-0000-0000-0000-000000000000"
       ],
-      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -118,7 +118,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.45,
+        "min_copper_edge_clearance": 0.4,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -131,8 +131,6 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -179,9 +177,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -208,12 +204,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -408,7 +399,6 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
       "conflicting_netclasses": "error",
@@ -482,7 +472,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
