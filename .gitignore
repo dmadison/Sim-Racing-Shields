@@ -2,6 +2,7 @@
 # Format documentation: https://kicad.org/help/file-formats/
 
 # Temporary files
+*auto_saved_files#
 *.000
 *.bak
 *.bck
@@ -17,6 +18,10 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 
+# Lock Files
+*.kicad_sch.lck
+*.kicad_pcb.lck
+
 # Netlist files (exported from Eeschema)
 *.net
 
@@ -27,3 +32,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Plotted files
+/pcbs/gerbers/*
