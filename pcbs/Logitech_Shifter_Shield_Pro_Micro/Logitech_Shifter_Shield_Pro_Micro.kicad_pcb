@@ -9,6 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Logitech Shifter Shield for Pro Micro")
+		(date "2022-10-06")
 		(rev "v1.0.0")
 	)
 	(layers
