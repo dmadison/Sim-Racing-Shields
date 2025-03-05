@@ -2914,7 +2914,7 @@
 		)
 		(uuid "ff51cd8b-c414-49c7-b046-090e01f583fd")
 	)
-	(text_box "These resistors references are in a strange order for routing reasons - they're placed from left to right on the board."
+	(text_box "These resistor references are in a strange order for routing reasons - they're placed from left to right on the board."
 		(exclude_from_sim no)
 		(at 256.54 44.45 0)
 		(size 22.86 16.51)
@@ -2933,10 +2933,10 @@
 		)
 		(uuid "86cfafbd-8229-4743-bb72-0e8fb39f5296")
 	)
-	(text_box "Changelog\n------\n\nv2.0.0: G25 Support: Added DE-1/5/7 series resistors, DE-1 pulldown, closed all jumpers"
+	(text_box "Changelog\n------\n\nv2.0.0: G25/G27 Support: Added DE-1/5/7 series resistors, DE-1 pulldown, closed all jumpers, changed power pin to 9"
 		(exclude_from_sim no)
-		(at 16.51 180.34 0)
-		(size 53.34 13.97)
+		(at 16.51 177.8 0)
+		(size 53.34 16.51)
 		(stroke
 			(width 0)
 			(type default)
@@ -2952,7 +2952,7 @@
 		)
 		(uuid "9d1d29a5-bdbd-48d7-9bd0-506373ae7608")
 	)
-	(text_box "Logitech Shifter DE-9 Wiring\n------------------\n\n* DE-1: Connected to power on the G25 (DET), connected to the EEPROM clock on the Driving Force (SCK). Has a series resistor to prevent shorts and is pulled down to be used as a detection signal for the G25.\n* DE-2: Data output (DOUT). The shift register / EEPROM output of the G25, the EEPROM / 'reverse button' output of the Driving Force. \n* DE-3: Chip select (CS). Connected to EEPROM and shift register chip select. Pulled high to access the shift register / 'reverse button' data.\n* DE-4: X-axis potentiometer wiper\n* DE-5: Data input (DIN) for the EEPROM, and the power LED on the G25 (active low). Resistor in series (120 Ohm + 330 Ohm built-in) to match brightness with the 'sequential' LED (470 Ohm built-in).\n* DE-6: Ground\n* DE-7: Connected to EEPROM and shift register clock on the G25 (SCK), connected to power on the Driving Force (DET).  Has a series resistor to prevent shorts and is pulled down to be used as a detection signal for the Driving Force.\n* DE-8: Y-axis potentiometer wiper\n* DE-9: Power\n\n------------------\n\nThe 470 / 10k resistors form a voltage divider. This is unavoidable but still well above the 'high' voltage threshold of the ICs.\n\n470 Ohms was the lowest reasonable value which, when shorted, wouldn't risk exceeding the max port limits on the 32U4 (40 mA per port, 20 mA per pin)"
+	(text_box "Logitech Shifter DE-9 Wiring\n------------------\n\n* DE-1: Connected to power on the G25 (DET), connected to the clock on the G27 and Driving Force (SCK). Has a series resistor to prevent shorts and is pulled down to be used as a detection signal for the G25.\n* DE-2: Data output (DOUT). The shift register / EEPROM output of the G25 and G27, the EEPROM / 'reverse button' output of the Driving Force. \n* DE-3: Chip select (CS). Connected to EEPROM and shift register chip select. Pulled high to access the shift register / 'reverse button' data.\n* DE-4: X-axis potentiometer wiper\n* DE-5: Data input (DIN) for the EEPROM, and the power LED on the G25 and G27 (active low). Resistor in series (120 Ohm + 330 Ohm built-in) to match brightness with the 'sequential' LED (470 Ohm built-in).\n* DE-6: Ground\n* DE-7: Connected to EEPROM and shift register clock on the G25 (SCK), connected to power on the G27 and Driving Force (DET).  Has a series resistor to prevent shorts and is pulled down to be used as a detection signal for the Driving Force.\n* DE-8: Y-axis potentiometer wiper\n* DE-9: Power\n\n------------------\n\nThe 470 / 10k resistors form a voltage divider. This is unavoidable but still well above the 'high' voltage threshold of the ICs.\n\n470 Ohms was the lowest reasonable value which, when shorted, wouldn't risk exceeding the max port limits on the 32U4 (40 mA per port, 20 mA per pin)"
 		(exclude_from_sim no)
 		(at 153.67 96.52 0)
 		(size 100.33 59.69)
