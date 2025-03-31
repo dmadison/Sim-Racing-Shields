@@ -27,11 +27,11 @@ LogitechShifterG27 shifter = SimRacing::CreateShieldObject<SimRacing::LogitechSh
 LogitechShifterG25 shifter = SimRacing::CreateShieldObject<SimRacing::LogitechShifterG25, 2>();
 ```
 
-## Logitech Pedals Shield for Pro Micro
+## Logitech Pedal Shield for Pro Micro
 
 The [Logitech Pedal Shield](pcbs/Logitech_Pedal_Shield_Pro_Micro) is designed to interface with the Logitech three pedal attachment, included with the Logitech G923 “TRUEFORCE”, G29/G920 “Driving Force”, and G27/G25 wheels, via a single DB-9 female connector.
 
-This repo includes firmware ([LogitechPedalsShield](firmware/LogitechPedalsShield/LogitechPedalsShield.ino)) which works out of the box as a USB HID adapter for the pedals.
+This repo includes firmware ([LogitechPedalShield](firmware/LogitechPedalShield/LogitechPedalShield.ino)) which works out of the box as a USB HID adapter for the pedals.
 
 You can also write your own firmware using the [Sim Racing Library for Arduino](https://github.com/dmadison/Sim-Racing-Arduino). Use the `SimRacing::CreateShieldObject()` template function for easy setup with the pedals shield:
 
