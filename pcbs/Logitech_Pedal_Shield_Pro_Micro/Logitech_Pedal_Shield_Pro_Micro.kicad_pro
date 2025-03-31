@@ -53,7 +53,14 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|136915000|119176800|7ff1e219-277f-47dd-8855-bdadc6260af6|44f86d60-3d39-4dc6-aef6-463987fb45fb",
+        "silk_edge_clearance|167885000|119176800|7ff1e219-277f-47dd-8855-bdadc6260af6|f383c29d-d562-4cca-afea-449bbd164f38",
+        "silk_over_copper|151546902|86186639|7d3a9372-4f99-452e-9767-51a31df66106|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|151930502|80802511|c2564ecf-bd43-431d-b9a2-c7be54487485|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|152328787|80149700|4625ef31-ba9f-4b3e-8ebc-93b4658ad74a|00000000-0000-0000-0000-000000000000",
+        "unconnected_items|139900000|110386000|82e843ba-47db-4b42-81d2-bd3fb89b62b0|a38f8878-ff32-48e8-8947-d0c252771bcd"
+      ],
       "meta": {
         "version": 2
       },
@@ -474,7 +481,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../Logitech_Pedal_Shield_Pro_Micro.step",
@@ -485,7 +492,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "Logitech_Pedal_Shield_Pro_Micro_BOM_v1.0.0.csv",
+    "bom_export_filename": "Logitech_Pedal_Shield_Pro_Micro_BOM_v2.0.0.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
