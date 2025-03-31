@@ -12,16 +12,20 @@ For more information, [see the article on PartsNotIncluded.com](https://www.part
 
 ## Logitech Shifter Shield for Pro Micro
 
-The [Logitech Shifter Shield](pcbs/Logitech_Shifter_Shield_Pro_Micro) is designed to interface with the Logitech Driving Force Shifter using a single DB-9 male connector.
+The [Logitech Shifter Shield](pcbs/Logitech_Shifter_Shield_Pro_Micro) is designed to interface with all available Logitech shifters using a single DB-9 male connector:
+* [Logitech Driving Force shifter (G923 / G920 / G29)](https://www.logitechg.com/en-us/products/driving/driving-force-shifter.html)
+* [Logitech G27 shifter](https://en.wikipedia.org/wiki/Logitech_G27)
+* [Logitech G25 shifter](https://en.wikipedia.org/wiki/Logitech_G25)
 
-Using the [Sim Racing Library for Arduino](https://github.com/dmadison/Sim-Racing-Arduino),
-use the `SHIFTER_SHIELD_V1_PINS` macro for easy setup with the shield:
+This repo includes firmware ([LogitechShifterShield](firmware/LogitechShifterShield/LogitechShifterShield.ino)) which works out of the box as a USB HID adapter for all three shifter types.
+
+You can also write your own firmware using the [Sim Racing Library for Arduino](https://github.com/dmadison/Sim-Racing-Arduino). Use the `SimRacing::CreateShieldObject()` template function for easy setup with the shifter shield:
 
 ```cpp
-LogitechShifter shifter(SHIFTER_SHIELD_V1_PINS);
+LogitechShifterG29 shifter = SimRacing::CreateShieldObject<SimRacing::LogitechShifterG29, 2>();
+LogitechShifterG27 shifter = SimRacing::CreateShieldObject<SimRacing::LogitechShifterG27, 2>();
+LogitechShifterG25 shifter = SimRacing::CreateShieldObject<SimRacing::LogitechShifterG25, 2>();
 ```
-
-For use as a USB HID adapter, upload the [ShiftJoystick](https://github.com/dmadison/Sim-Racing-Arduino/blob/master/examples/Shifter/ShiftJoystick/ShiftJoystick.ino) library example. Make sure to modify the object declaration with the shield-specific pin definition (above) before uploading.
 
 ## Logitech Pedals Shield for Pro Micro
 
