@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Logitech Shifter Shield for Pro Micro")
-		(date "2025-01-23")
+		(date "2025-03-31")
 		(rev "v2.0.0")
 	)
 	(lib_symbols
