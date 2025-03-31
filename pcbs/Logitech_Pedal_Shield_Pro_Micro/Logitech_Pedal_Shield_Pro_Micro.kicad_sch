@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Logitech Pedal Shield for Pro Micro")
-		(date "2022-10-06")
-		(rev "v1.0.0")
+		(date "2025-03-31")
+		(rev "v2.0.0")
 	)
 	(lib_symbols
 		(symbol "Connector:AVR-ISP-6"
@@ -2803,6 +2803,25 @@
 			(type default)
 		)
 		(uuid "fb71516f-6288-436e-a095-92fa35f57a9d")
+	)
+	(text_box "Changelog\n------\n\nv2.0.0: Updated silkscreen, no functional changes"
+		(exclude_from_sim no)
+		(at 15.24 177.8 0)
+		(size 53.34 16.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c165fb21-6bc1-45c4-89e2-1da257c17942")
 	)
 	(text "Tag-Connect Port"
 		(exclude_from_sim no)
